@@ -1,0 +1,82 @@
+/* General Section Styling */
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #132632;
+}
+
+.sign-in .container {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sign-in .signin-content {
+    display: flex;
+    align-items: center;
+}
+
+.sign-in .signin-form {
+    padding-right: 50px;
+}
+
+.sign-in .signin-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in .signin-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Form Styling */
+.sign-in .form-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.sign-in .form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.sign-in .form-group label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #333;
+}
+
+.sign-in .form-group input {
+    width: 100%;
+    padding: 10px 15px 10px 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.sign-in .form-submit {
+    width: 100%;
+    background-color: #5cb85c;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sign-in .form-submit:hover {
+    background-color: #4cae4c;
+}

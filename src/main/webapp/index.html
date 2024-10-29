@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Filmlane - Best movie collections</title>
+
+	<!-- 
+    - favicon
+  -->
+	<link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+	<!-- 
+    - custom css link
+  -->
+	<link rel="stylesheet" href="./assets/css/style.css">
+
+	<!-- 
+    - google font link
+  -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+	<!-- 
+    - #HEADER
+  -->
+
+	<header class="header" data-header>
+		<div class="container">
+
+			<div class="overlay" data-overlay></div>
+
+			<a href="./index.html" class="logo">
+				<img src="./assets/images/logo-2.png" alt="Filmlane logo" width="250" height="80">
+
+			</a>
+
+			<div class="header-actions">
+
+				<button class="search-btn">
+					<ion-icon name="search-outline"></ion-icon>
+				</button>
+
+				<div class="lang-wrapper">
+					<label for="language">
+						<!-- <ion-icon name="globe-outline" color="#1cdaff"></ion-icon> -->
+					</label>
+
+					<select name="language" id="language">
+						<option value="en">English</option>
+						<option value="au">Australian</option>
+						<option value="ar">Arabic</option>
+						<option value="tr">Turkish</option>
+						<option value="fr">French</option>
+						<option value="de">German</option>
+					</select>
+				</div>
+				<a href="registration.jsp">
+					<button class="btn btn-primary">Sign in</button></a>
+
+				<a href="adminLogin.jsp">
+					<button class="btn btn-primary">Admin</button>
+				</a>
+
+
+			</div>
+
+			<button class="menu-open-btn" data-menu-open-btn>
+				<ion-icon name="reorder-two"></ion-icon>
+			</button>
+
+			<nav class="navbar" data-navbar>
+
+				<div class="navbar-top">
+
+					<a href="./index.html" class="logo">
+						<img src="./assets/images/logo.svg" alt="Filmlane logo">
+					</a>
+
+					<button class="menu-close-btn" data-menu-close-btn>
+						<ion-icon name="close-outline"></ion-icon>
+					</button>
+
+				</div>
+
+				<ul class="navbar-list">
+
+					<li>
+						<a href="./index.html" class="navbar-link">Home</a>
+					</li>
+
+					<li>
+						<a href="#" class="navbar-link">Events</a>
+					</li>
+
+					<li>
+						<a href="#" class="navbar-link">Features</a>
+					</li>
+
+					<li>
+						<a href="#" class="navbar-link">Pricing</a>
+					</li>
+
+					<li>
+						<a href="#" class="navbar-link">About</a>
+					</li>
+
+				</ul>
+
+				<ul class="navbar-social-list">
+
+					<li>
+						<a href="#" class="navbar-social-link">
+							<ion-icon name="logo-twitter"></ion-icon>
+						</a>
+					</li>
+
+					<li>
+						<a href="#" class="navbar-social-link">
+							<ion-icon name="logo-facebook"></ion-icon>
+						</a>
+					</li>
+
+					<li>
+						<a href="#" class="navbar-social-link">
+							<ion-icon name="logo-pinterest"></ion-icon>
+						</a>
+					</li>
+
+					<li>
+						<a href="#" class="navbar-social-link">
+							<ion-icon name="logo-instagram"></ion-icon>
+						</a>
+					</li>
+
+					<li>
+						<a href="#" class="navbar-social-link">
+							<ion-icon name="logo-youtube"></ion-icon>
+						</a>
+					</li>
+
+				</ul>
+
+			</nav>
+
+		</div>
+	</header>
+
+
+
+
+
+	<main>
+		<article>
+
+			<!-- 
+        - #HERO
+      -->
+
+			<section class="hero">
+				<div class="container">
+
+					<div class="hero-content">
+
+						<p class="hero-subtitle">Events..</p>
+
+						<h1 class="h1 hero-title">
+							Best <strong>Events</strong>, Are You Ready To Change Positions?.
+						</h1>
+
+						<div class="meta-wrapper">
+
+							<div class="badge-wrapper">
+								<div class="badge badge-fill">PG 18</div>
+
+								<div class="badge badge-outline">HD</div>
+							</div>
+
+							
+
+							<div class="date-time">
+
+								<div>
+									<!-- <ion-icon name="calendar-outline"></ion-icon> -->
+
+									<time datetime="2022">2024</time>
+								</div>
+
+								<div>
+									<!-- <ion-icon name="time-outline"></ion-icon> -->
+
+									<time datetime="PT128M">128 min</time>
+								</div>
+
+							</div>
+
+						</div>
+
+						<button class="btn btn-primary" aria-label="Get More details">
+ 							 <ion-icon name="details"></ion-icon>
+  								<span>Get More...</span>
+						</button>
+
+					</div>
+
+				</div>
+			</section>
+
+
+
+			<!-- 
+        - #SERVICE
+      -->
+
+			<section class="service">
+				<div class="container">
+
+					<div class="service-banner">
+						<figure>
+							<img src="./assets/images/planing.png" alt="HD 4k resolution! only $3.99">
+						</figure>
+
+						<!-- <a href="./assets/images/service-banner.jpg" download class="service-btn">
+							<span>Download</span>
+
+							<ion-icon name="download-outline"></ion-icon>
+						</a> -->
+					</div>
+
+					<div class="service-content">
+
+						<p class="service-subtitle">Our Services</p>
+
+						<h2 class="h2 service-title">We are handling all your events.</h2>
+
+						<p class="service-text">
+							An Event Planner is a professional who is in charge of logistics like choosing locations, hiring 
+							caterers, and coordinating with other vendors such as entertainment or other aspects to ensure a successful event
+						</p>
+						<h3 class="h2 service-title">Event Planner responsibilities include</h3>
+
+							<p class="service-text">Event planning, design and production within time limits.</p>
+						    <p class="service-text">Working with clients to identify their needs and ensure customer satisfaction.</p>
+							<p class="service-text">Organizing facilities and details such as decor, catering, entertainment, transportation, location, 
+							invitee list, special guests, equipment, promotional material etc.</p>
+							
+						
+						<ul class="service-list">
+
+							<!-- <li>
+								<div class="service-card">
+
+									<div class="card-icon">
+										<ion-icon name="tv"></ion-icon>
+									</div>
+
+									<div class="card-content">
+										<h3 class="h3 card-title">Enjoy on Your TV.</h3>
+
+										<p class="card-text">
+											Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod
+											tempor.
+										</p>
+									</div>
+
+								</div>
+							</li> -->
+
+							<!-- <li>
+								<div class="service-card">
+
+									<div class="card-icon">
+										<ion-icon name="videocam"></ion-icon>
+									</div>
+
+									<div class="card-content">
+										<h3 class="h3 card-title">Watch Everywhere.</h3>
+
+										<p class="card-text">
+											Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod
+											tempor.
+										</p>
+									</div>
+
+								</div>
+							</li> -->
+
+						</ul>
+
+					</div>
+
+				</div>
+			</section>
+
+
+
+
+
+			<!-- 
+        - #TOP RATED
+      -->
+
+			<!-- 
+        - #CTA
+      -->
+
+<section class="event-planning">
+    <div class="container">
+
+        <div class="content-wrapper">
+            <div class="form-content">
+                <div class="title-wrapper">
+                    <h2 class="event-title">Plan Your Next Event With Us!</h2>
+                    <p class="event-text">
+                        Enter your details to start organizing a memorable event with ease.
+                    </p>
+                </div>
+
+                <form action="" class="event-form">
+                    <input type="text" name="name" required placeholder="Enter your name" class="name-field">
+                    <input type="email" name="email" required placeholder="Enter your email" class="email-field">
+                    <input type="date" name="event-date" required placeholder="Select event date" class="date-field">
+                    <button type="submit" class="event-form-btn">Start Planning</button>
+                </form>
+            </div>
+
+            <div class="image-content">
+                <img src="./assets/images/contact-us.jpg" alt="Event Planning" class="event-image">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+	</main>
+
+
+
+
+
+	<!-- 
+    - #FOOTER
+  -->
+		<div class="footer-bottom">
+			<div class="container">
+
+				<p class="copyright">
+					&copy; 2024 <a href="#">codewithsadee</a>. All Rights Reserved
+				</p>
+
+				<img src="./assets/images/footer-bottom-img.png" alt="Online banking companies logo"
+					class="footer-bottom-img">
+
+			</div>
+		</div>
+
+	</footer>
+
+
+
+
+
+	<!-- 
+    - #GO TO TOP
+  -->
+
+	<!-- <a href="#top" class="go-top" data-go-top>
+		<ion-icon name="chevron-up"></ion-icon>
+	</a>
+ -->
+
+
+
+
+	<!-- 
+    - custom js link
+  -->
+	<script src="./assets/js/script.js"></script>
+
+	<!-- 
+    - ionicon link
+  -->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
